@@ -1,0 +1,27 @@
+{
+  "name": "@ataraxydevelopers/lost-deal-revival",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Revisit lost opportunities when there is a relevant reason to reconnect.",
+  "license": "MIT",
+  "author": "Ataraxy Developers",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtaraxyDevelopers/lost-deal-revival.git"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "example": "node scripts/analyze.mjs",
+    "test": "node --test test/*.test.mjs",
+    "test:browser": "playwright test",
+    "browser:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1",
+    "@axe-core/playwright": "4.14.0"
+  }
+}
