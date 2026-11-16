@@ -1,6 +1,6 @@
 {
   "name": "@ataraxydevelopers/lost-deal-revival",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "description": "Revisit lost opportunities when there is a relevant reason to reconnect.",
